@@ -2,7 +2,7 @@
 import express from 'express'
 import * as http from 'http'
 
-import api from './api'
+import api from './api/index.js'
 
 const app = express()
 

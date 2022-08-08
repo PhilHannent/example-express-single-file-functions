@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
 import * as os from 'os'
 
-export function getServer(_req: Request, res: Response): void {
+export const getServer = (_req: Request, res: Response): void => {
 	/*
 	#swagger.responses[200] = {
             description: "Returns the hostname and Node version",
