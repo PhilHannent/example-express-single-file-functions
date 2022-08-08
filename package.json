@@ -1,0 +1,19 @@
+{
+  "name": "example-express-single-file-functions",
+  "version": "1.0.0",
+  "description": "Example of a single file function API usage",
+  "main": "build/index.js",
+  "scripts": {
+	"build:forever": "npx tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phil Hannent",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "typescript": "^4.7.4"
+  }
+}
